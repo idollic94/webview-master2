@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702467161752",
+    "firebase_url": "https://thewayapp-c94e4.firebaseio.com",
+    "project_id": "thewayapp-c94e4",
+    "storage_bucket": "thewayapp-c94e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702467161752:android:fa31a7fc3ca4660c",
+        "android_client_info": {
+          "package_name": "com.wayappdev.thewayapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702467161752-gcpi9qtdbc2bb6jm21d10gb39mm9pars.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjCyFKn7ZVGloXSnXFaWNwaiyBZZmN6jM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702467161752-gcpi9qtdbc2bb6jm21d10gb39mm9pars.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

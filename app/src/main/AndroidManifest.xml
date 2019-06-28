@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wayappdev.thewayapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirstTimeMainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".WhatSchool"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".VeryFirstTimeMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".imsw"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".imflint"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".fbwaymi" />
+        <activity android:name=".fbsw" />
+        <activity android:name=".fbflint" />
+        <activity android:name=".fbeast" />
+        <activity android:name=".fbwest" />
+        <activity android:name=".igeast" />
+        <activity android:name=".igflint" />
+        <activity android:name=".igsw" />
+        <activity android:name=".igwaymi" />
+        <activity android:name=".igwest" />
+        <activity android:name=".imeast"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".imwaymi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".imwest"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".tweast"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".twsw"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".twwaymi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".twwest"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".imwayprog" />
+        <activity android:name=".fbwayprog"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".twwayprog"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".igwayprog"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".swVeryFirstTimeMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".eastVeryFirstTimeMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".flintVeryFirstTimeMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".waymiFirstTimeMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".westVeryFirstTimeMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".wayprogVeryFirstTimeMainActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".CustomFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

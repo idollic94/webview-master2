@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/newsplash" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="58dp"
+        android:background="@android:color/transparent"
+        android:onClick="swtwitter"
+        android:src="@drawable/newtwittericon" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="@android:color/transparent"
+        android:onClick="swfb"
+        android:src="@drawable/newfbicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_marginEnd="46dp"
+        android:background="@android:color/transparent"
+        android:onClick="swinsta"
+        android:src="@drawable/newigicon" />
+
+
+    <ImageButton
+        android:id="@+id/questionmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="-46dp"
+        android:layout_toStartOf="@+id/imageButton2"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_help"
+        android:tintMode="add" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/helper"
+        android:layout_width="310dp"
+        android:layout_height="215dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="24dp">
+
+        <Button
+            android:id="@+id/dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="162dp"
+            android:text="Dismiss" />
+
+        <TextView
+            android:id="@+id/Prompt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Thank you for completing the setup. If you can see this message, you're registered for relevant and personalized notifications. If you made a mistake and need to restart the process, try clearing this app's data or uninstall then re-install the app. This app was built by Kyle Karriker at Widening Advancements for Youth. Email: kyle.karriker@wayprogram.net"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

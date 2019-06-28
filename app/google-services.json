@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "89168393428",
+    "firebase_url": "https://wayacademy-94b9c.firebaseio.com",
+    "project_id": "wayacademy-94b9c",
+    "storage_bucket": "wayacademy-94b9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89168393428:android:87a2bbef8f71bf28",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89168393428-uh62nmvm4jmmqk8f314g80u96sjv1400.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app",
+            "certificate_hash": "385bcb3f4ccec469f8148802d5b6bb15256cc957"
+          }
+        },
+        {
+          "client_id": "89168393428-b54k5rhtaaguvb4jtdnebur67aanq098.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app",
+            "certificate_hash": "9f213e0bff617810673d9fd234b68fa8d8ba89da"
+          }
+        },
+        {
+          "client_id": "89168393428-9gvrt6cbtfkombii5rdjgpnnkp9m7hb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIV91MGvcwOQNys74t8Ylob8KGvsYtQIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89168393428-9gvrt6cbtfkombii5rdjgpnnkp9m7hb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89168393428:android:fa31a7fc3ca4660c",
+        "android_client_info": {
+          "package_name": "com.wayappdev.thewayapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89168393428-vvkthu7h2211g5ejrvn41rnkib16fa23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wayappdev.thewayapp",
+            "certificate_hash": "fccfa3ad628c81b406774dccaf7b7c81448fa8d1"
+          }
+        },
+        {
+          "client_id": "89168393428-9gvrt6cbtfkombii5rdjgpnnkp9m7hb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIV91MGvcwOQNys74t8Ylob8KGvsYtQIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89168393428-9gvrt6cbtfkombii5rdjgpnnkp9m7hb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
